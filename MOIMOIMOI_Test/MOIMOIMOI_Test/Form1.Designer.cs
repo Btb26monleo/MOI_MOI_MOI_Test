@@ -30,9 +30,9 @@ namespace MOIMOIMOI_Test
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.textboxpassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,12 +45,12 @@ namespace MOIMOIMOI_Test
             this.label1.TabIndex = 0;
             this.label1.Text = "tên đăng nhập";
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(149, 75);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(343, 20);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(149, 75);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(343, 20);
+            this.textboxusername.TabIndex = 1;
             // 
             // label2
             // 
@@ -61,12 +61,12 @@ namespace MOIMOIMOI_Test
             this.label2.TabIndex = 0;
             this.label2.Text = "mật khẩu";
             // 
-            // txtPassword
+            // textboxpassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(149, 127);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(343, 20);
-            this.txtPassword.TabIndex = 1;
+            this.textboxpassword.Location = new System.Drawing.Point(149, 127);
+            this.textboxpassword.Name = "textboxpassword";
+            this.textboxpassword.Size = new System.Drawing.Size(343, 20);
+            this.textboxpassword.TabIndex = 1;
             // 
             // btnLogin
             // 
@@ -83,9 +83,9 @@ namespace MOIMOIMOI_Test
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(607, 308);
             this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.textboxpassword);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -97,9 +97,9 @@ namespace MOIMOIMOI_Test
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.TextBox textboxpassword;
         private System.Windows.Forms.Button btnLogin;
     }
 }
