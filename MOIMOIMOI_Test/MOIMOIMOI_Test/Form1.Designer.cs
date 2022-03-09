@@ -32,7 +32,8 @@ namespace MOIMOIMOI_Test
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,23 +57,33 @@ namespace MOIMOIMOI_Test
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(59, 127);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 13);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 0;
-            this.label2.Text = "MatKhau";
+            this.label2.Text = "Password";
             // 
-            // txtmatkhau
+            // txtPassword
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(149, 127);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(343, 20);
-            this.txtmatkhau.TabIndex = 1;
+            this.txtPassword.Location = new System.Drawing.Point(149, 127);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(343, 20);
+            this.txtPassword.TabIndex = 1;
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(267, 171);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(75, 23);
+            this.btnLogin.TabIndex = 2;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(607, 308);
-            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
@@ -88,7 +99,8 @@ namespace MOIMOIMOI_Test
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 
