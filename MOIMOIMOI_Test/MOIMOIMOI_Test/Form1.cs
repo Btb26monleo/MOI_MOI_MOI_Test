@@ -16,5 +16,10 @@ namespace MOIMOIMOI_Test
         {
             InitializeComponent();
         }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Chào các bạn");
+        }
     }
 }
