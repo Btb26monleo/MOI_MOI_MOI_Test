@@ -21,5 +21,10 @@ namespace MOIMOIMOI_Test
         {
             MessageBox.Show("Chào các bạn");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
